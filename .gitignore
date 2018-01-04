@@ -1,3 +1,6 @@
 # Ignore IntelliJ Project Files
 *.iml
 /.idea
+
+# Ignore target classes folder
+target/
