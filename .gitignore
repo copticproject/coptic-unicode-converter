@@ -4,3 +4,6 @@
 
 # Ignore target classes folder
 target/
+
+# Maven Artefacts
+dependency-reduced-pom.xml

@@ -17,7 +17,7 @@
         <deployment.package>com.copticproject.api.unicodeconverter</deployment.package>
 
         <!-- Region to deploy-->
-        <deployment.region>oregon</deployment.region>
+        <deployment.region>us-west-2</deployment.region>
         <!-- Stage to deploy -->
         <deployment.stage>production</deployment.stage>
         <!-- Maximum execution time for lambda -->
@@ -27,6 +27,11 @@
         <!-- <deployment.bucket>lambada-boilerplate-test</deployment.bucket> -->
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>com.copticproject.api</groupId>
+            <artifactId>com.copticproject.api.unicodeconverter</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>org.lambadaframework</groupId>
             <artifactId>runtime</artifactId>
